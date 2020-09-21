@@ -7,20 +7,17 @@ using namespace std;
 int main()
 {
 	int sum, n, i, k;
-	bool b;
 	sum = 0;
-	b = 0;
 	cin >> n;
 	while ((n < 0) || (n > 5))
 	{
 		cout << "Eto chislo ne udovletvoryaet usloviu N = [0..5], vvedite drugoe chislo" << endl;
 		cin >> n;
 	}
-	b = 1;
 	for (i = 1; i <= n; i++)
 	{
 		cin >> k;
-		sum = sum + k;
+		sum += k;
 	}
 	cout << sum << endl;
 }
