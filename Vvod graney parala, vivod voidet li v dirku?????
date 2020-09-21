@@ -1,0 +1,14 @@
+#include <iostream>
+// KTbo-1.5 Nagumanov Nail 
+// Vvod graney parala, vivod voidet li v dirku?????
+using namespace std;
+
+int main()
+{
+	int x, y, z, u, v, p;
+	cin >> x >> y >> z >> u >> v;
+	p = u * v;
+	if (((x * y)<p) || ((x * z)<p) || ((y * z)<p))
+		cout << "Da" << endl;
+	else cout << "Net" << endl;
+}
