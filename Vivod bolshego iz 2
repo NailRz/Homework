@@ -1,0 +1,16 @@
+#include <iostream>
+// KTbo-1.5 Nagumanov Nail 
+// Vvod 2 chisel, vivod naiblshego
+
+using namespace std;
+
+int main()
+{
+	int a, b;
+	char ch;
+	cin >> a;
+	cin >> b;
+	if (a > b)
+		cout << a << endl;
+	else cout << b << endl;
+}
